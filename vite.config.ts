@@ -3,11 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/Pulse./",
-  server: {
-    host: "::",
-    port: 8080,
-  },
+  base: "/Pulse/",
   plugins: [react()],
   resolve: {
     alias: {
